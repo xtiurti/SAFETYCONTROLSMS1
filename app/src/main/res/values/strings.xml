@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SAFETY CONTROL SMS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="descricao">Esse aplicativo foi desenvolvido para facilitar no envio de comandos SMS para os rastreadores SAFETY CONTROL by TECNO ELETRONICA.\n\n
+	Utilizando o aplicativo no envio do comando o usuário não precisa escrever o mesmo, ficando assim tudo mais simples e fácil no envio do comando através do aplicativo.\n\n
+	A lista de comandos é geral e ampla, e devido as evolução do produto somente irá funcionar se o rastreador contiver os respectivos comandos, fazendo apenas o envio do comando.\n\n 
+	A finalidade do aplicativo é apenas servir de interface no envio dos comandos SMS, não atualizando assim as funções do rastreador.\n\n
+Maiores informações sobre esse aplicativo entre em contato:\n\n
+www.localizevoce.com.br \n
+e-mail:  contato@localizevoce.com\n\n
+www.tecnoeletronica.com.br\n
+e-mail: contato@tecnoeletronica.com.br\n</string>
+    <string name="avaliacao">    Versão de demonstração - envio máximo de 10 comandos.\n
+	Para ter a versão sem restrição escreva para um dos e-mail abaixo e peça informações:\n\n
+
+	contato@tecnoeletronica.com.br\n\n
+
+	ou\n\n
+
+	contato@localizevoce.com</string>
+    <string name="localizar1">        Para localizar o veículo no mapa é super simples:
+		1º Passo: Após o cliente ter enviando o comando de localização e ter recebido o SMS de resposta semelhante ao texto abaixo:\n
+			SAFETY CONTROL: 
+			Localizar! 
+			GPS Info 
+			DATA:02/12/13
+			HORA:13:01:26
+			LAT:29.64488410S
+			LON:51.00070953W
+			VELOCIDADE: 0.0
+			BATERIA: 100\n
+		2º Passo: Acesse o site:  www.maps.google.com.br ou outro de sua preferência.\n
+		3º Passo: No site, na parte abaixo ( circulada por nos ), digite as coordenadas recebidas no SMS de resposta.</string>
+    <string name="localizar2">        4º Passo: Digitar de forma correta as coordenadas.\n
+		O formato correto, do que deve ser digitado é:    00.00000000S (espaço) 00.00000000W\n
+		ou seja
+		No SMS de resposta, veja qual é a latitude ( LAT: )  e a longitude (LON:).\n 
+		Conforme nosso exemplo, você digitará no google:       29.64488410S 51.00070953W\n        </string>
+    <string name="localizar3">        5º Passo: Após digitar as coordenadas corretamente, pressione a tecla ENTER e a localização aparecera no mapa.\n
+		Caso dê algo de errado verifique atentamente o que foi digitado.</string>
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string name="title_activity_agendaa">AgendaaActivity</string>
+    <string name="title_activity_cadastrar">CadastrarActivity</string>
+    <string name="title_comando_list">Comandos</string>
+    <string name="title_comando_detail">Comando Detail</string>
+    <string name="image">Thumbnail</string>
+    <string name="title_activity_cadastrar_usuario">CadastrarUsuario</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_tab_conectar">TabConectarActivity</string>
+    <string name="title_activity_sobre">SobreActivity</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.twautomacao.safetycontrolsms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="21" />
+    
+    <uses-permission android:name="android.permission.SEND_SMS">
+    
+        
+    </uses-permission>
+
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.AgendaActivity"
+            android:label="Agenda"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.AgendaaActivity"
+            android:label="@string/title_activity_agendaa"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.CadastrarActivity"
+            android:label="@string/title_activity_cadastrar"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".ComandoListActivity"
+            android:label="@string/title_comando_list"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name=".ComandoDetailActivity"
+            android:label="@string/title_comando_detail"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:parentActivityName=".ComandoListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.twautomacao.safetycontrolsms.ComandoListActivity" />
+        </activity>
+        <activity
+            android:name=".CadastrarUsuario"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_cadastrar_usuario"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+
+        <activity
+            android:name=".SobreActivity"
+            android:label="@string/title_activity_sobre" >
+            </activity>
+       
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <declare-styleable name="FontFitTextView">
+        <attr name="minTextSize" format="dimension" />
+        <attr name="maxTextSize" format="dimension" />
+    </declare-styleable>
+
+</resources>
+

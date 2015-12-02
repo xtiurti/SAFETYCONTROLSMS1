@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.1"
+
+    defaultConfig {
+        applicationId "br.com.twautomacao.safetycontrolsms"
+        minSdkVersion 7
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile "com.android.support:appcompat-v7:21.0.+"
+    compile files('src/main/java/appcompat_v7.jar')
+}

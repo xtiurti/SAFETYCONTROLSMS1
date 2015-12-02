@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:adjustViewBounds="true"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/tvNome"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nome:"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/etNome"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="30"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="#cccccc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp" >
+
+                <br.com.twautomacao.safetycontrolsms.util.AutoResizeTextView
+                    android:id="@+id/textView2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Numero do Chip:"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/etNumero"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edit_text"
+                    android:numeric="integer"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="#cccccc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/tvSenha"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Senha:"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/etSenha"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edit_text"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:text="123456"
+                    android:textColorHint="#cccccc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp" >
+
+                <br.com.twautomacao.safetycontrolsms.util.AutoResizeTextView
+                    android:id="@+id/textView4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    
+                    android:text="Confirme Sdsfsdfsddsdqweqwenha:"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/etConfirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edit_text"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:text="123456"
+                    android:textColorHint="#cccccc" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="10dp" >
+
+            <Button
+                android:id="@+id/btSalvar"
+                style="@style/btnStyleopal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar" />
+
+            <Button
+                android:id="@+id/btCancelar"
+                style="@style/btnStyleopal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Cancelar" />
+            
+            <Button
+                android:id="@+id/btExcluir"
+                style="@style/btnStyleopal"
+                android:layout_marginTop="3dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Excluir"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/layout/activity_cadastrar.xml -->

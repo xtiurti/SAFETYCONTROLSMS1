@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Senha Atual:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/etSenhaAtual"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="#cccccc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Nova Senha:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/etSenha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="#cccccc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Confirme Senha:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/etConfirm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="#cccccc" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btS"
+            style="@style/btnStyleShakespeare"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Enviar" />
+
+        <Button
+            android:id="@+id/btC"
+            style="@style/btnStyleShakespeare"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:text="Cancelar" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Não esqueça de alterar a senha no cadastro do rastreador no aplicativo."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/vermelho" />
+    </LinearLayout>
+</ScrollView>

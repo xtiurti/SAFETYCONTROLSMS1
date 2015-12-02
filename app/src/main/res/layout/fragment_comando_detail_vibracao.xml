@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:text="Intervalo de tempo:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etIntervalo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text"
+            android:gravity="right"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="10dp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:text="0"
+            android:textColorHint="#cccccc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Tempo em:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rbSegundo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:tag="S"
+                android:text="Segundo" />
+
+            <RadioButton
+                android:id="@+id/rbMinuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="M"
+                android:text="Minuto" />
+
+            <RadioButton
+                android:id="@+id/rbHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="H"
+                android:text="Hora" />
+        </RadioGroup>
+
+        <Button
+        android:id="@+id/btS"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+
+    <Button
+        android:id="@+id/btC"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:text="Cancelar" />
+    </LinearLayout>
+
+</ScrollView>

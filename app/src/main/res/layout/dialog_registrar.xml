@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="IMEI:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edImei"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:singleLine="true" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Qtdade de cadastros:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edChips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Código:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edCodigo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+    </EditText>
+    <Button
+            android:id="@+id/btRegistrar"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            style="@style/btnStyleopal"
+            android:layout_margin="10dp"
+            android:text="Registrar" />
+    
+    
+    
+
+</LinearLayout>

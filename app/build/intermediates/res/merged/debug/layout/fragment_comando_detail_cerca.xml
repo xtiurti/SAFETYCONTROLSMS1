@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp" >
+
+        <RadioGroup
+            android:id="@+id/rgCerca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:paddingTop="20sp" >
+
+            <RadioButton
+                android:id="@+id/rbCerca1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:tag="1"
+                android:text="Cerca 1" />
+
+            <RadioButton
+                android:id="@+id/rbCerca2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="2"
+                android:text="Cerca 2" />
+
+            <RadioButton
+                android:id="@+id/rbCerca3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="3"
+                android:text="Cerca 3" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rgEntrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rbEntar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:tag="1"
+                android:text="Avisar quando entrar na cerca." />
+
+            <RadioButton
+                android:id="@+id/rbSair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="0"
+                android:text="Avisar quando sair na cerca" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp" 
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20sp"
+                android:textColor="@android:color/black"
+                android:text="Distância da cerca:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/etDistancia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text"
+                android:gravity="right"
+                android:inputType="number"
+                android:padding="10dp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:text="100"
+                android:textColorHint="#cccccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Distância em:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"/>
+
+            <RadioGroup
+                android:id="@+id/rgDistancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rbMetros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:tag="M"
+                    android:text="Metros" />
+
+                <RadioButton
+                    android:id="@+id/rbKm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="KM"
+                    android:text="KM" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btS"
+                style="@style/btnStyleShakespeare"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Enviar" />
+
+            <Button
+                android:id="@+id/btC"
+                android:layout_marginTop="3dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="20dp"
+                style="@style/btnStyleShakespeare"
+                android:text="Cancelar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/layout/fragment_comando_detail_cerca.xml -->
