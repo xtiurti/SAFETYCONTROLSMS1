@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/home/rwerzel/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jar="/home/xtiurti/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.0.1"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6be5eb7c87893e6dbca7324cdb9e4b43b5b2d330.jar" />
+        <dex dex="/home/xtiurti/Área de Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-02a1a931fa91e6144ba81d5926e2f0dda094b590.jar" />
     </item>
     <item
-        jar="/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="21.0.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/classes-6546e95d85b6145c6eb0438c86a7d85d2993e972.jar" />
-    </item>
-    <item
-        jar="/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jar="/home/xtiurti/Área de Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="21.0.1"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/classes-89893ddfd7d9758fc99528125a743d2c5685a32b.jar" />
+        <dex dex="/home/xtiurti/Área de Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/classes-13a7d42c13ccaa7b9868abc20fc57c9536c0f998.jar" />
     </item>
     <item
-        jar="/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jar="/home/xtiurti/Área de Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/xtiurti/Área de Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/classes-df4926ab69513983a805f0287c99f95cb002c94b.jar" />
+    </item>
+    <item
+        jar="/home/xtiurti/Área de Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.0.1"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-1213ecf668e6bffa41f2fe1df2e40cfc2977c8cc.jar" />
+        <dex dex="/home/xtiurti/Área de Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-89ed05f8ee5a4e09ddfbc850da505e28182bf6d5.jar" />
     </item>
 
 </items>
