@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="br.com.twautomacao.safetycontrolsms.CadastrarUsuario" >
+    tools:context="br.com.twautomacao.safetycontrolsms.activity.CadastrarUsuarioActivity" >
 
     <item
         android:id="@+id/action_settings"
@@ -9,4 +9,4 @@
         android:title="@string/action_settings"/>
 
 </menu>
-<!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/menu/cadastrar_usuario.xml -->
+<!-- From: file:/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/src/main/res/menu/cadastrar_usuario.xml -->

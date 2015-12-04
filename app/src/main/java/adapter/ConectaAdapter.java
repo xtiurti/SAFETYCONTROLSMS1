@@ -2,11 +2,9 @@ package adapter;
 
 import java.util.ArrayList;
 
-import br.com.twautomacao.safetycontrolsms.ComandoDetailFragment;
 import br.com.twautomacao.safetycontrolsms.R;
-import br.com.twautomacao.safetycontrolsms.pojo.Agenda;
 import br.com.twautomacao.safetycontrolsms.pojo.Comando;
-import android.app.FragmentManager;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +12,6 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ConectaAdapter extends ArrayAdapter<Comando> {

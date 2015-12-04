@@ -13,7 +13,11 @@ public class Comando implements Comparable<Comando>, Serializable {
 	String comando;
 	Integer imageId;
 	String descricao;
-	
+
+	public Comando() {
+
+	}
+
 	public String getDescricao() {
 		return descricao;
 	}

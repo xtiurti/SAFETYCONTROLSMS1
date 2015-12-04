@@ -19,7 +19,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="br.com.twautomacao.safetycontrolsms.activity.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,7 +35,7 @@
         <activity
             android:name="br.com.twautomacao.safetycontrolsms.activity.AgendaaActivity"
             android:label="@string/title_activity_agendaa"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:theme="@style/Theme.AppCompat.Light" >
         </activity>
         <activity
             android:name="br.com.twautomacao.safetycontrolsms.activity.CadastrarActivity"
@@ -42,28 +43,29 @@
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name="br.com.twautomacao.safetycontrolsms.ComandoListActivity"
+            android:name="br.com.twautomacao.safetycontrolsms.activity.ComandoListActivity"
             android:label="@string/title_comando_list"
             android:theme="@style/Theme.AppCompat.Light" >
         </activity>
         <activity
-            android:name="br.com.twautomacao.safetycontrolsms.ComandoDetailActivity"
+            android:name="br.com.twautomacao.safetycontrolsms.activity.ComandoDetailActivity"
             android:label="@string/title_comando_detail"
-            android:parentActivityName="br.com.twautomacao.safetycontrolsms.ComandoListActivity"
+            android:parentActivityName="br.com.twautomacao.safetycontrolsms.activity.ComandoListActivity"
             android:theme="@style/Theme.AppCompat.Light" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.twautomacao.safetycontrolsms.ComandoListActivity" />
+                android:value=".activity.ComandoListActivity" />
         </activity>
         <activity
-            android:name="br.com.twautomacao.safetycontrolsms.CadastrarUsuario"
+            android:name="br.com.twautomacao.safetycontrolsms.activity.CadastrarUsuarioActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_cadastrar_usuario"
             android:theme="@style/FullscreenTheme" >
         </activity>
         <activity
             android:name="br.com.twautomacao.safetycontrolsms.SobreActivity"
-            android:label="@string/title_activity_sobre" >
+            android:label="@string/title_activity_sobre"
+            android:theme="@style/Theme.AppCompat.Light" >
         </activity>
     </application>
 

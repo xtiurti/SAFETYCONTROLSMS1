@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:padding="16dp"
         android:textIsSelectable="true"
-        tools:context="br.com.twautomacao.safetycontrolsms.ComandoDetailFragment" />
+        tools:context="br.com.twautomacao.safetycontrolsms.activity.ComandoDetailFragment" />
     <TextView
         
         android:id="@+id/cc"
@@ -23,6 +23,6 @@
         android:layout_height="match_parent"
         android:padding="16dp"
         android:textIsSelectable="true"
-        tools:context="br.com.twautomacao.safetycontrolsms.ComandoDetailFragment" />
+        tools:context="br.com.twautomacao.safetycontrolsms.activity.ComandoDetailFragment" />
 
-</LinearLayout><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/layout/fragment_comando_detail.xml -->
+</LinearLayout><!-- From: file:/home/rwerzel/AndroidStudioProjects/SAFETYCONTROLSMS1/app/src/main/res/layout/fragment_comando_detail.xml -->

@@ -47,19 +47,19 @@
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name=".ComandoListActivity"
+            android:name=".activity.ComandoListActivity"
             android:label="@string/title_comando_list" >
         </activity>
         <activity
-            android:name=".ComandoDetailActivity"
+            android:name=".activity.ComandoDetailActivity"
             android:label="@string/title_comando_detail"
-            android:parentActivityName=".ComandoListActivity" >
+            android:parentActivityName=".activity.ComandoListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.twautomacao.safetycontrolsms.ComandoListActivity" />
+                android:value=".activity.ComandoListActivity" />
         </activity>
         <activity
-            android:name=".CadastrarUsuario"
+            android:name=".activity.CadastrarUsuarioActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_cadastrar_usuario"
             android:theme="@style/FullscreenTheme" >

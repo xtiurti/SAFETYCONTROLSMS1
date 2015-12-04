@@ -3,6 +3,6 @@
     android:id="@+id/comando_detail_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.twautomacao.safetycontrolsms.ComandoDetailActivity"
+    tools:context="br.com.twautomacao.safetycontrolsms.activity.ComandoDetailActivity"
     tools:ignore="MergeRootFrame" />
 

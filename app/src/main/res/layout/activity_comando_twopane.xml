@@ -8,7 +8,7 @@
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
-    tools:context="br.com.twautomacao.safetycontrolsms.ComandoListActivity" >
+    tools:context="br.com.twautomacao.safetycontrolsms.activity.ComandoListActivity" >
 
     <!--
     This layout is a two-pane layout for the Comandos
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/comando_list"
-        android:name="br.com.twautomacao.safetycontrolsms.ComandoListFragment"
+        android:name="br.com.twautomacao.safetycontrolsms.activity.ComandoListFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"

@@ -21,7 +21,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".activity.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,32 +35,35 @@
             android:label="Agenda"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
+
         <activity
             android:name=".activity.AgendaaActivity"
             android:label="@string/title_activity_agendaa"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:theme="@style/Theme.AppCompat.Light">
         </activity>
+
         <activity
             android:name=".activity.CadastrarActivity"
             android:label="@string/title_activity_cadastrar"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
+
         <activity
-            android:name=".ComandoListActivity"
+            android:name=".activity.ComandoListActivity"
             android:label="@string/title_comando_list"
             android:theme="@style/Theme.AppCompat.Light" >
         </activity>
         <activity
-            android:name=".ComandoDetailActivity"
+            android:name=".activity.ComandoDetailActivity"
             android:label="@string/title_comando_detail"
             android:theme="@style/Theme.AppCompat.Light"
-            android:parentActivityName=".ComandoListActivity" >
+            android:parentActivityName=".activity.ComandoListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.twautomacao.safetycontrolsms.ComandoListActivity" />
+                android:value=".activity.ComandoListActivity" />
         </activity>
         <activity
-            android:name=".CadastrarUsuario"
+            android:name=".activity.CadastrarUsuarioActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_cadastrar_usuario"
             android:theme="@style/FullscreenTheme" >
@@ -67,7 +71,8 @@
 
         <activity
             android:name=".SobreActivity"
-            android:label="@string/title_activity_sobre" >
+            android:label="@string/title_activity_sobre"
+            android:theme="@style/Theme.AppCompat.Light">
             </activity>
        
     </application>
