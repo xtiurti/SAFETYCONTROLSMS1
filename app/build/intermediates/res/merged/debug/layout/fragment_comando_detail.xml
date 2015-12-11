@@ -25,4 +25,4 @@
         android:textIsSelectable="true"
         tools:context="br.com.twautomacao.safetycontrolsms.activity.ComandoDetailFragment" />
 
-</LinearLayout><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/src/main/res/layout/fragment_comando_detail.xml -->
+</LinearLayout><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/layout/fragment_comando_detail.xml -->

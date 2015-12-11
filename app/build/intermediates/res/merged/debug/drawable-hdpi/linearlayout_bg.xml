@@ -3,4 +3,4 @@
    <solid android:color="#99c5c5c5" ></solid>
    <corners android:radius="8px"></corners> 
    <stroke  android:width="0dp" android:color="#d3dde0"></stroke>
-</shape><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/src/main/res/drawable-hdpi/linearlayout_bg.xml -->
+</shape><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/drawable-hdpi/linearlayout_bg.xml -->

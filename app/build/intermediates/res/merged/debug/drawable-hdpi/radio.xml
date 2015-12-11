@@ -20,4 +20,4 @@ android:drawable="@drawable/touch_screen_radio_off_i" />
 <item android:state_checked="false" android:drawable="@drawable/touch_screen_radio_off_i" />
 <item android:state_checked="true" android:drawable="@drawable/touch_screen_radio_on_i" />
 
-</selector><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/src/main/res/drawable-hdpi/radio.xml -->
+</selector><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/drawable-hdpi/radio.xml -->

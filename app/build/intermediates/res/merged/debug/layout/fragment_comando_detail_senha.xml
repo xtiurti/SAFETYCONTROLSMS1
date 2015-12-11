@@ -111,4 +111,4 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/vermelho" />
     </LinearLayout>
-</ScrollView><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/SAFETYCONTROLSMS1/app/src/main/res/layout/fragment_comando_detail_senha.xml -->
+</ScrollView><!-- From: file:/home/xtiurti/Área%20de%20Trabalho/SAFETYCONTROLSMS1/app/src/main/res/layout/fragment_comando_detail_senha.xml -->
